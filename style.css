@@ -1,6 +1,25 @@
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.login{
+    width: 66px;
+    color: #fff;
+    background: #E76F51;
+}
+.my-btn{
+    background: #E76F51;
+    color: #fff;
+    width: 168px;
+}
 .my-bg{
     background: #264653;
+}
+hr{
+    width: 90px;
+    color: red;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 ul{
@@ -10,4 +29,17 @@ ul{
 }
 ul li{
     display: inline-block;
+}
+ul li a i{
+    color: #E76F51 ;
+}
+
+.style-icon i{
+    margin: 0 10px;
+    width: 35px;
+    height: 30px;
+    padding-top: 8px;
+    border-radius: 50%;
+    background: #E76F51;
+    color: #fff;    
 }

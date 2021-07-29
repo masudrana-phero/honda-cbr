@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda CBR</title>
 
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <!-- font awsome  -->
     <script src="https://kit.fontawesome.com/aedde3d0d1.js" crossorigin="anonymous"></script>
 
@@ -36,17 +41,17 @@
                             <a class="nav-link text-white text-center active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white text-center" href="#">Link</a>
+                            <a class="nav-link text-white text-center" href="#">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white text-center" href="#">Link</a>
+                            <a class="nav-link text-white text-center" href="#">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white text-center" href="#">Link</a>
+                            <a class="nav-link text-white text-center" href="#">Contact</a>
                         </li>
                     </ul>
-                    <form class="d-flex ms-3 text-center ">
-                        <button class="btn btn-success" type="submit">Search</button>
+                    <form class="d-flex ms-3 justify-content-center">
+                        <button class="btn login" type="submit">Login</button>
                     </form>
                 </div>
             </div>
@@ -56,16 +61,59 @@
 
         <!-- banner starts here  -->
 
-        <div class="banner container my-5">
+        <div class="banner container">
             <div>
                 <div class="row">
-                    <div class="col-lg-6 text-white">
-                        <p>Computer-controlled digital transistorized with electronic advance</p>
-                        <h1>Honda CBR 300R</h1>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                            consequat
-                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button class="btn btn-primary">click me</button>
+                    <div class="col-lg-6 text-white my-5">
+                        <div class="mt-5">
+                            <p>Computer-controlled digital transistorized with electronic advance</p>
+                            <h1>Honda CBR 300R</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat
+                                duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                            <button type="button" class="btn my-btn mt-4" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Purchase
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content bg-danger">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-dark" id="exampleModalLabel">UNAPOLOGETIC
+                                                PERFORMANCE</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body text-dark">
+                                            <p>Open-class four-cylinder liter bikes have long been the holy grail for
+                                                the best sportbike riders. Powerful, precise machines that stand at the
+                                                very top of motorcycling’s hierarchy. On the track, they command your
+                                                full attention. On the street, they give you a ride like nothing else
+                                                with a license plate. And make no mistake: Honda’s 2021 CBR1000RR and
+                                                CBR1000RR ABS are two of the best you’ll ever ride. Spectacular, refined
+                                                handling. Immediate, absolute power. And all in a package that offers
+                                                Honda’s legendary quality, and a level of comfort and rideability no
+                                                racebike can match. Machines like these are a rare breed, and so are
+                                                their riders. But once you experience a CBR1000RR, it’s hard to be truly
+                                                satisfied with anything less.</p>
+
+                                            <a class="btn btn-primary"
+                                                href="https://powersports.honda.com/street/supersport/cbr1000rr"
+                                                target="_blank">Visit
+                                                Our Web</a>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-6">
                         <img src="images/header-bike.png" class="img-fluid" alt="">
@@ -94,56 +142,65 @@
                     <img class="img-fluid" src="images/bike-2.png" alt="">
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <img class="img-fluid" src="images/bike-3.png" alt="">
+                    <img class="img-fluid" src="images/bike-1.png" alt="">
                 </div>
             </div>
         </section>
 
-        <!-- fetured bikes section starts here   -->
+        <!-- fetured bikes section ends here   -->
 
         <!-- lattest news section starts here  -->
 
         <section class="container my-3">
-            <div>
+            <div class="mb-4">
                 <h1 class="text-center">latest News</h1>
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <img src="images/bike-1.png" style="width: 337px; padding: 15px; margin: 0 auto;"
+                            class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                            <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text text-muted small p-1">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Lacus,
                                 fermentum amet faucibus sed id nisi lectus at.</p>
                         </div>
                         <div>
-                            <button class="btn btn-outline-danger">Read More</button>
+                            <button class="btn btn-outline-danger m-3">Read More</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/bike-2.png" class="card-img-top" alt="...">
+                        <img src="images/bike-2.png" style="width: 337px; padding: 15px; margin: 0 auto;"
+                            class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                            <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text text-muted small p-1">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Lacus,
                                 fermentum amet faucibus sed id nisi lectus at.</p>
                         </div>
                         <div>
-                            <button class="btn btn-outline-danger">Read More</button>
+                            <button class="btn btn-outline-danger m-3">Read More</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <img src="images/bike-3.png" style="width: 337px; padding: 15px; margin: 0 auto;"
+                            class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                            <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text text-muted small p-1">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Lacus,
                                 fermentum amet faucibus sed id nisi lectus at.</p>
                         </div>
                         <div>
-                            <button class="btn btn-outline-danger">Read More</button>
+                            <button class="btn btn-outline-danger m-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -156,14 +213,15 @@
 
         <!-- happy client section stats here  -->
 
-
-
         <section class="container my-5">
+            <div class="text-center mb-5">
+                <h2>Happy <span style="color: #E76F51;">Clients says</span></h2>
+            </div>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="border p-4 rounded shadow-lg text-center">
-                        <img style="width: 149px;" class="img-fluid" src="images/user-1.png" alt="">
-                        <p>Slate helps you see how
+                        <img style="width: 149px;" class="img-fluid mb-3" src="images/user-1.png" alt="">
+                        <p class="text-center text-muted small">Slate helps you see how
                             many more days you need
                             to work to reach your financial
                             goal for the month and year.</p>
@@ -176,14 +234,14 @@
                                 <li><a href=""><i class="far fa-star"></i></a></li>
                             </ul>
                         </div>
-                        <h4>Regina Miles</h4>
-                        <h6>Banker</h6>
+                        <h4 class="text-primary small my-2">Regina Miles</h4>
+                        <h6 class="small">Banker</h6>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="border p-4 rounded shadow-lg text-center">
-                        <img style="width: 149px;" class="img-fluid" src="images/user-2.png" alt="">
-                        <p>Slate helps you see how
+                        <img style="width: 149px;" class="img-fluid mb-3" src="images/user-2.png" alt="">
+                        <p class="text-center text-muted small">Slate helps you see how
                             many more days you need
                             to work to reach your financial
                             goal for the month and year.</p>
@@ -196,15 +254,15 @@
                                 <li><a href=""><i class="far fa-star"></i></a></li>
                             </ul>
                         </div>
-                        <h4>Regina Miles</h4>
-                        <h6>Banker</h6>
+                        <h4 class="text-primary small my-2">Regina Miles</h4>
+                        <h6 class="small">Banker</h6>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="border p-4 rounded shadow-lg h-100 text-center">
-                        <img style="width: 149px;" class="img-fluid rounded rounded-circle" src="images/user-3.png"
-                            alt="">
-                        <p>Slate helps you see how
+                        <img style="width: 149px; height: 140px;" class=" rounded rounded-circle mb-4"
+                            src="images/user-3.png" alt="">
+                        <p class="text-center text-muted small">Slate helps you see how
                             many more days you need
                             to work to reach your financial
                             goal for the month and year.</p>
@@ -217,8 +275,8 @@
                                 <li><a href=""><i class="far fa-star"></i></a></li>
                             </ul>
                         </div>
-                        <h4>Regina Miles</h4>
-                        <h6>Banker</h6>
+                        <h4 class="text-primary small my-2">Regina Miles</h4>
+                        <h6 class="small">Banker</h6>
                     </div>
                 </div>
             </div>
@@ -336,7 +394,7 @@
                                     <h6 class="card-title">Honda CBR150R Price List;</h6>
                                     <hr>
                                     <h3 class="card-text">
-                                        <div class="d-flex bg-warning p-3 rounded">
+                                        <div class="d-flex bg-warning p-2 rounded">
                                             <div>
                                                 <h6>New Honda CBR150R (ABS)</h6>
                                             </div>
@@ -356,7 +414,7 @@
                                     <h6 class="card-title">Honda CBR150R Price List;</h6>
                                     <hr>
                                     <h3 class="card-text">
-                                        <div class="d-flex bg-warning p-3 rounded">
+                                        <div class="d-flex bg-warning p-2 rounded">
                                             <div>
                                                 <h6>Honda CBR150R (Indonesian)</h6>
                                             </div>
@@ -414,8 +472,11 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="text-center fst-italic">About Honda</h2>
-                    <p class="justify-content-center">The Honda Motor Company, Ltd. (Japanese: 本田技研工業株式会社, Hepburn:
+                    <h2 class="text-center fst-italic"> <span class="text-danger">About </span> <span
+                            class="text-warning">Honda</span></h2>
+                    <p class="justify-content-center text-muted small">The Honda Motor Company, Ltd. (Japanese:
+                        本田技研工業株式会社,
+                        Hepburn:
                         Honda Giken Kōgyō KK, IPA: [honda]
                         (About this soundlisten); /ˈhɒndə/) is a Japanese public multinational conglomerate manufacturer
                         of automobiles, motorcycles, and power equipment, headquartered in Minato, Tokyo, Japan.
@@ -438,8 +499,18 @@
 
     </main>
 
-    <footer class="bg-dark p-5">
-        <h6 class="text-white text-center">** All Rights Resurved &copy; Masud Rana **</h6>
+    <!-- footer starts here  -->
+
+    <footer class="bg-dark p-3">
+        <h6 class="text-white text-center mb-4">** All Rights Resurved &copy; Masud Rana **</h6>
+        <div>
+            <ul class="style-icon text-center">
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fas fa-rss"></i></a></li>
+            </ul>
+        </div>
     </footer>
 
 
