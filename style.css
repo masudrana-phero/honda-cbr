@@ -1,0 +1,13 @@
+
+.my-bg{
+    background: #264653;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
